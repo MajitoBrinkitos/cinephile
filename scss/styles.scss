@@ -1,0 +1,27 @@
+//Body
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: pink;
+    padding: 2px;
+}
+
+//Sidenavbar
+nav {
+    .navbar-btn {
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+        button {
+            padding: 5px 10px;
+        }
+    }
+
+    .membership {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-gap: 10px;
+    }
+}
